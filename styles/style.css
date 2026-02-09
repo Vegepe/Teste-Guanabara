@@ -22,7 +22,6 @@ html, body {
 /* === Estilo base === */
 body {
     background: url('../assets/images/dess.gif');
-    background-size: contain;
     font-family: 'Pixel', sans-serif;
     color: white;
 }
@@ -227,11 +226,11 @@ h1 {
 
 .star-trail {
     position: absolute;
-    width: 7px;  /* frame width */
-    height: 7px; /* frame height */
+    width: 7px;  
+    height: 7px; 
     background-image: url('../assets/images/thingamabob/sparkle/trail.png');
     background-repeat: no-repeat;
-    background-size: 28px 7px; /* largura total da imagem */
+    background-size: 28px 7px; 
     background-position: 0 0;
     opacity: 0.8;
     transition: opacity 1s ease;
@@ -343,7 +342,7 @@ aside {
 }
 
 aside.reveal {
-    max-height: 1000px; /* ou algo grande o suficiente */
+    max-height: 1000px; 
     padding: 1rem;
     opacity: 1;
     border-width: 3px;
